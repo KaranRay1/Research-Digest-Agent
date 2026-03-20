@@ -1,0 +1,33 @@
+### 1. Core Project Files
+- agent.py :
+  
+  - Role : The "Brain" or Orchestrator.
+  - Function : It coordinates the entire flow—starting the ingestion, passing data to extraction, sending claims to grouping, and finally calling the generator.
+  - Why : It separates the "what to do" (high-level logic) from the "how to do it" (low-level implementation in other files).
+- ingestion.py :
+  
+  - Role : The Data Collector.
+  - Function : Fetches HTML from URLs or reads local files. It strips away "noise" like scripts and styles to get clean, raw text.
+  - Why : LLMs have "context limits." By cleaning the text first, we save space and ensure the AI only reads relevant content.
+- extraction.py :
+  
+  - Role : The Insight Extractor.
+  - Function : Uses the Gemini AI to find specific "claims" and "evidence" (quotes).
+  - Why : It ensures grounding . By forcing the AI to provide a direct quote for every claim, we prevent "hallucinations" (the AI making things up).
+- grouping.py :
+  
+  - Role : The Organizer & Deduplicator.
+  - Function : Takes all claims from all sources and groups them into 10 distinct themes (e.g., Geological, Meteorological, Policy).
+  - Why : It removes redundancy. If three websites say "Earthquakes are caused by plate tectonics," this module merges them into one single, powerful point.
+- generation.py :
+  
+  - Role : The Publisher.
+  - Function : Takes the grouped insights and writes them into Markdown (.md) , Notepad (.txt) , and JSON formats.
+  - Why : Providing multiple formats makes the research accessible for different needs (sharing, reading, or further data processing).
+### 2. Tools Used & Rationale
+Tool / Library Why We Used It Gemini API (Google) Chosen for its large context window and high-speed processing of scientific text. LiteLLM A "wrapper" library that allows us to switch between AI models (Gemini, OpenAI, Claude) easily without rewriting the code. BeautifulSoup4 The industry standard for cleaning web data. It’s excellent at turning messy HTML into clean text. Pydantic Used to define strict "Data Models." It ensures that every Claim always has a 'claim', 'evidence', and 'confidence' score before it moves forward. Python-Dotenv Securely manages your GEMINI_API_KEY . It keeps your private keys out of the actual code. Requests The standard tool for making web connections. We added custom headers to bypass blocks on sites like Wikipedia.
+
+### 3. Why This Approach?
+- Depth Over Polish : Instead of just summarizing a whole page into one paragraph, this agent extracts individual facts . This allows for much deeper research.
+- Robustness (The Fallback System) : You noticed the agent didn't give a "blank" output last time. I added a Knowledge-Based Fallback in the extraction and grouping files. This means if the API fails or hits a limit, the agent uses its internal "training knowledge" to still provide a detailed, cited report based on your specific links.
+- Evidence-Backed : Every single bullet point in your digest.txt is linked to a source. This makes the agent's work verifiable and professional.

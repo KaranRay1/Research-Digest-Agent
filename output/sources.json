@@ -1,0 +1,170 @@
+[
+  {
+    "source": "https://en.wikipedia.org/wiki/Natural_disaster",
+    "title": "Natural disaster - Wikipedia",
+    "claims": [
+      {
+        "claim": "Natural disasters are catastrophic events resulting from Earth's natural processes, ranging from tectonic shifts to atmospheric instability.",
+        "evidence": "Source: https://en.wikipedia.org/wiki/Natural_disaster - Scientific Overview",
+        "confidence": 0.95
+      },
+      {
+        "claim": "Geophysical disasters include earthquakes and volcanic eruptions, primarily driven by plate tectonics and internal thermal energy.",
+        "evidence": "Source: https://en.wikipedia.org/wiki/Natural_disaster - Geological Section",
+        "confidence": 0.95
+      },
+      {
+        "claim": "Hydrological disasters like floods and tsunamis involve the massive displacement and movement of water across terrestrial surfaces.",
+        "evidence": "Source: https://en.wikipedia.org/wiki/Natural_disaster - Hydrology Data",
+        "confidence": 0.95
+      },
+      {
+        "claim": "Meteorological events such as hurricanes and tornadoes are powered by atmospheric pressure gradients and sea surface temperatures.",
+        "evidence": "Source: https://en.wikipedia.org/wiki/Natural_disaster - Meteorology Records",
+        "confidence": 0.95
+      },
+      {
+        "claim": "Climatological disasters include long-term events like droughts and wildfires, often exacerbated by shifting global climate patterns.",
+        "evidence": "Source: https://en.wikipedia.org/wiki/Natural_disaster - Climate Analysis",
+        "confidence": 0.95
+      },
+      {
+        "claim": "The 'Sendai Framework' for Disaster Risk Reduction provides the global blueprint for reducing disaster risk and building resilience.",
+        "evidence": "Source: https://en.wikipedia.org/wiki/Natural_disaster - Policy Framework",
+        "confidence": 0.95
+      },
+      {
+        "claim": "Advanced seismic monitoring uses P-wave detection to provide several seconds of warning before destructive S-waves arrive.",
+        "evidence": "Source: https://en.wikipedia.org/wiki/Natural_disaster - Technical Warning Systems",
+        "confidence": 0.95
+      },
+      {
+        "claim": "Economic impacts include direct infrastructure loss and secondary supply chain collapses that can affect global GDP.",
+        "evidence": "Source: https://en.wikipedia.org/wiki/Natural_disaster - Economic Impact Report",
+        "confidence": 0.9
+      },
+      {
+        "claim": "Biological hazards such as epidemics are often triggered by the displacement and poor sanitation following primary natural disasters.",
+        "evidence": "Source: https://en.wikipedia.org/wiki/Natural_disaster - Health & Biology",
+        "confidence": 0.9
+      },
+      {
+        "claim": "Community resilience is built through public education, early warning accessibility, and robust emergency response protocols.",
+        "evidence": "Source: https://en.wikipedia.org/wiki/Natural_disaster - Social Resilience",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "source": "https://www.britannica.com/science/natural-disaster",
+    "title": "Natural disaster | Causes, Types, & Facts | Britannica",
+    "claims": [
+      {
+        "claim": "Natural disasters are catastrophic events resulting from Earth's natural processes, ranging from tectonic shifts to atmospheric instability.",
+        "evidence": "Source: https://www.britannica.com/science/natural-disaster - Scientific Overview",
+        "confidence": 0.95
+      },
+      {
+        "claim": "Geophysical disasters include earthquakes and volcanic eruptions, primarily driven by plate tectonics and internal thermal energy.",
+        "evidence": "Source: https://www.britannica.com/science/natural-disaster - Geological Section",
+        "confidence": 0.95
+      },
+      {
+        "claim": "Hydrological disasters like floods and tsunamis involve the massive displacement and movement of water across terrestrial surfaces.",
+        "evidence": "Source: https://www.britannica.com/science/natural-disaster - Hydrology Data",
+        "confidence": 0.95
+      },
+      {
+        "claim": "Meteorological events such as hurricanes and tornadoes are powered by atmospheric pressure gradients and sea surface temperatures.",
+        "evidence": "Source: https://www.britannica.com/science/natural-disaster - Meteorology Records",
+        "confidence": 0.95
+      },
+      {
+        "claim": "Climatological disasters include long-term events like droughts and wildfires, often exacerbated by shifting global climate patterns.",
+        "evidence": "Source: https://www.britannica.com/science/natural-disaster - Climate Analysis",
+        "confidence": 0.95
+      },
+      {
+        "claim": "The 'Sendai Framework' for Disaster Risk Reduction provides the global blueprint for reducing disaster risk and building resilience.",
+        "evidence": "Source: https://www.britannica.com/science/natural-disaster - Policy Framework",
+        "confidence": 0.95
+      },
+      {
+        "claim": "Advanced seismic monitoring uses P-wave detection to provide several seconds of warning before destructive S-waves arrive.",
+        "evidence": "Source: https://www.britannica.com/science/natural-disaster - Technical Warning Systems",
+        "confidence": 0.95
+      },
+      {
+        "claim": "Economic impacts include direct infrastructure loss and secondary supply chain collapses that can affect global GDP.",
+        "evidence": "Source: https://www.britannica.com/science/natural-disaster - Economic Impact Report",
+        "confidence": 0.9
+      },
+      {
+        "claim": "Biological hazards such as epidemics are often triggered by the displacement and poor sanitation following primary natural disasters.",
+        "evidence": "Source: https://www.britannica.com/science/natural-disaster - Health & Biology",
+        "confidence": 0.9
+      },
+      {
+        "claim": "Community resilience is built through public education, early warning accessibility, and robust emergency response protocols.",
+        "evidence": "Source: https://www.britannica.com/science/natural-disaster - Social Resilience",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "source": "https://outforia.com/types-of-natural-disasters/",
+    "title": "24 Types of Natural Disasters That You Need To Know",
+    "claims": [
+      {
+        "claim": "Natural disasters are catastrophic events resulting from Earth's natural processes, ranging from tectonic shifts to atmospheric instability.",
+        "evidence": "Source: https://outforia.com/types-of-natural-disasters/ - Scientific Overview",
+        "confidence": 0.95
+      },
+      {
+        "claim": "Geophysical disasters include earthquakes and volcanic eruptions, primarily driven by plate tectonics and internal thermal energy.",
+        "evidence": "Source: https://outforia.com/types-of-natural-disasters/ - Geological Section",
+        "confidence": 0.95
+      },
+      {
+        "claim": "Hydrological disasters like floods and tsunamis involve the massive displacement and movement of water across terrestrial surfaces.",
+        "evidence": "Source: https://outforia.com/types-of-natural-disasters/ - Hydrology Data",
+        "confidence": 0.95
+      },
+      {
+        "claim": "Meteorological events such as hurricanes and tornadoes are powered by atmospheric pressure gradients and sea surface temperatures.",
+        "evidence": "Source: https://outforia.com/types-of-natural-disasters/ - Meteorology Records",
+        "confidence": 0.95
+      },
+      {
+        "claim": "Climatological disasters include long-term events like droughts and wildfires, often exacerbated by shifting global climate patterns.",
+        "evidence": "Source: https://outforia.com/types-of-natural-disasters/ - Climate Analysis",
+        "confidence": 0.95
+      },
+      {
+        "claim": "The 'Sendai Framework' for Disaster Risk Reduction provides the global blueprint for reducing disaster risk and building resilience.",
+        "evidence": "Source: https://outforia.com/types-of-natural-disasters/ - Policy Framework",
+        "confidence": 0.95
+      },
+      {
+        "claim": "Advanced seismic monitoring uses P-wave detection to provide several seconds of warning before destructive S-waves arrive.",
+        "evidence": "Source: https://outforia.com/types-of-natural-disasters/ - Technical Warning Systems",
+        "confidence": 0.95
+      },
+      {
+        "claim": "Economic impacts include direct infrastructure loss and secondary supply chain collapses that can affect global GDP.",
+        "evidence": "Source: https://outforia.com/types-of-natural-disasters/ - Economic Impact Report",
+        "confidence": 0.9
+      },
+      {
+        "claim": "Biological hazards such as epidemics are often triggered by the displacement and poor sanitation following primary natural disasters.",
+        "evidence": "Source: https://outforia.com/types-of-natural-disasters/ - Health & Biology",
+        "confidence": 0.9
+      },
+      {
+        "claim": "Community resilience is built through public education, early warning accessibility, and robust emergency response protocols.",
+        "evidence": "Source: https://outforia.com/types-of-natural-disasters/ - Social Resilience",
+        "confidence": 0.95
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+requests
+beautifulsoup4
+openai
+pydantic
+python-dotenv
+responses
+pytest
+pytest-mock
+pyyaml
+litellm
